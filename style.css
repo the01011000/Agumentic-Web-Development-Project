@@ -1,0 +1,69 @@
+/* Reset some default styles */
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Banner Section styles */
+#hero-banner {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#hero-title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#hero-description {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Content Section styles */
+#content-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#content-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#content-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    #hero-title {
+        font-size: 30px;
+    }
+
+    #hero-description {
+        font-size: 16px;
+    }
+
+    #content-section h2 {
+        font-size: 20px;
+    }
+
+    #content-section p {
+        font-size: 14px;
+    }
+}
