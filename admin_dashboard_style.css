@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-login-form {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-login-form input[type="text"],
+.admin-login-form input[type="password"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.admin-login-form input[type="text"]:focus,
+.admin-login-form input[type="password"]:focus {
+  border-color: #4CAF50;
+}
+
+.admin-login-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.admin-login-form button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .admin-login-form {
+    max-width: 90%;
+  }
+}
